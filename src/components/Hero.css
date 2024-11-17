@@ -1,0 +1,1366 @@
+/* Hero.css */
+
+.hero {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.slider-image {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-container {
+  position: absolute;
+  bottom: 4300px; /* Adjust the value to control how much it overlaps */
+  left: 50%;
+  width: 80%;
+  transform: translateX(-50%);
+  display: flex;
+  /* gap: 1rem; */
+  /* background: white; */
+  padding: 20px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.card1 {
+  background: #f0f8ff;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  clip-path: polygon(0 0, 100% 10%, 100% 95%, 0% 100%);
+  flex: 1;
+}
+.card2 {
+  background: #fef0ff;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  clip-path: polygon(-900% 100%, 100% 0%, 100% 100%, 0% 95%);
+  flex: 1;
+}
+.card3 {
+  background: #f0f8ff;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  clip-path: polygon(0 0, 100% 10%, 100% 95%, 0% 100%);
+  flex: 1;
+}
+.card4 {
+  background: #fef0ff;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  clip-path: polygon(-900% 100%, 100% 0%, 100% 100%, 0% 95%);
+  flex: 1;
+}
+.card-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.card a {
+  color: #00458f;
+  text-decoration: none;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  background-color: #f5f5f5;
+  padding: 20px;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 250px;
+}
+
+.text-container {
+  flex: 2;
+  padding-right: 20px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  /* text-align: left; */
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.image-container {
+  flex: 1;
+  background-color: #2ecbff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.guide-text {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+/* src/components/PatientTestimonials.css */
+.testimonial-section {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #eaf7f7; /* Light background color similar to the screenshot */
+  align-items: center;
+}
+
+.testimonial-video {
+  flex: 1;
+}
+
+.testimonial-content {
+  flex: 2;
+}
+
+.testimonial-content h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1a1919;
+  margin-bottom: 10px;
+  text-align: left;
+
+}
+
+.testimonial-content p {
+  font-size: 1rem;
+  color: #2b2b2b;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.reviews-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.platforms-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.platform {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  width: 30%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.platform-logo {
+  max-width: 300px;
+  margin: 10px 0;
+}
+.platform-button {
+  background-color: #0098ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.user-reviews {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review {
+  background-color: white;
+  padding: 15px;
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.review-stars {
+  text-align: left;
+  color: gold;
+  margin: 5px 0;
+}
+.review-text {
+  text-align: left;
+  color: #222222;
+  font-size: 0.9em;
+  height: 80px;
+  overflow-y: auto;
+}
+
+.rating-summary {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1em;
+  color: #555;
+}
+.container1 {
+  display: flex;
+  background-color: #d8f4f6;
+  padding: 40px;
+  /* text-align: left; */
+}
+
+.text-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.video-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 30px;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.description {
+  font-size: 1rem;
+  margin: 10px 0 20px 0;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.featured-treatments-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.heading2 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  background-color: #e0f0ff;
+  color: #007acc;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.tab-button.active {
+  background-color: #007acc;
+  color: #fff;
+}
+
+.tab-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #e7f5fc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.tab-image img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.tab-text {
+  flex: 1;
+}
+
+.tab-text p {
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+
+}
+
+.more-info-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.more-info-button:hover {
+  background-color: #005a9e;
+}
+
+/* General App Styling */
+.app {
+  text-align: center;
+  color: #ffffff;
+  background-color: #3a4f75;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.subheading {
+  font-size: 16px;
+  color: #b0c4de;
+  margin-bottom: 20px;
+}
+
+/* Departments Container */
+.departments {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+/* Department Card */
+.department-card {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.department-card:hover {
+  transform: scale(1.05);
+}
+
+.department-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #131313;
+  padding: 40px 0;
+}
+
+/* "More" Button */
+.more-button {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  background-color: #008cba;
+  justify-content: center;
+  color: white;
+  padding: 4px 0;
+  font-size: 14px;
+  width: 30%;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 100px;
+  border-radius:  4px;
+  transition: bottom 0.3s, opacity 0.3s;
+  opacity: 0;
+}
+
+.department-card:hover .more-button {
+  bottom: 10px;
+  opacity: 1;
+}
+
+/* Modern Equipment Section */
+.modern-equipment {
+  text-align: left;
+  font-size: 14px;
+  color: #d3d3d3;
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: 110px;
+  margin-right: auto;
+}
+
+.modern-equipment h3{
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.divider {
+  flex-grow: 1;
+  width: 155%;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 10px 0;
+}
+.all-departments-button {
+  display: inline-block;
+  background-color: #008cba;
+  color: white;
+  padding: 12px 25px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.all-departments-button:hover {
+  background-color: #005f7f;
+}
+/* General Styling for Video Testimonials Section */
+.video-testimonials {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.video-testimonials h2 {
+  text-align: left;
+  font-size: 34px;
+  font-weight: bold;
+  color: #0f0f0f;
+}
+
+.video-testimonials p {
+  text-align: left;
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0 30px;
+}
+
+/* Video Card Styling */
+.video-card {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.duration {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Play Icon Overlay */
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.8);
+  pointer-events: none;
+}
+
+/* Slick Carousel Dots and Arrows */
+.slick-dots li button:before {
+  color: #333;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #333;
+}
+/* Modal Styling */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: -2px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+}
+
+.modal-content video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-button {
+  background-color: #f0f0f0; /* Light grey background */
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  color: #555; /* Soft grey text color */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Background Section */
+.fixed-price-package {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 400px; /* Adjust height as needed */
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+
+}
+
+.fixed-price-package::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px; /* The "cut" section */
+  /* background-color: #1a3c5d;  */
+}
+
+/* Content Wrapper */
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Left Section */
+.text-section {
+  flex: 1;
+  max-width: 300px;
+}
+
+.text-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text-section p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.info-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.info-button:hover {
+  background-color: #45a049;
+}
+
+/* Center Section - Working Hours */
+.working-hours {
+  flex: 1;
+  max-width: 300px;
+  text-align: left;
+}
+
+.working-hours h3 {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.working-hours ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.working-hours li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+/* Right Section - Fees & Insurance */
+.fees-insurance {
+  flex: 1;
+  max-width: 300px;
+}
+
+.fees-insurance h3 {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.fees-insurance p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.footer-container {
+  display: flex;
+  background-color: #2e3b59;
+  padding: 30px 60px; /* Adjust padding to control height */
+  margin-top: -76px; /* Use negative margin to lift it higher */
+  color: #ffffff;  
+  font-family: Arial, sans-serif;
+  clip-path: polygon(0 0, 0 0, 50% 17%, 100% 0, 100% 0, 100% 100%, 0 100%);
+
+}
+
+.contact-section {
+  width: 40%;
+  padding-right: 20px;
+}
+
+.hospital-logo {
+  max-width: 270px;
+  margin-bottom: -10px;
+  padding-right: 290px;
+  padding-top: 50px;
+}
+
+.contact-section p {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.contact-item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.contact-item a, .contact-item span {
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 130px;
+  font-size: 0.9em;
+}
+
+.social-media-section {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: space-around;
+  padding-bottom: 150px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  filter: brightness(5) invert(1); /* Ensure white icons on dark background */
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  opacity: 0.7;
+}
+
+.latest-news-section {
+  width: 40%;
+}
+
+.latest-news-section h3 {
+  font-size: 1em;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 5px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.news-item {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.news-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.news-date {
+  font-size: 0.7em;
+  color: #cccccc;
+  margin-bottom: 5px;
+}
+
+.news-title {
+  color: #0098ff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.news-title:hover {
+  text-decoration: underline;
+}
+
+.news-description {
+  font-size: 0.8em;
+  color: #cccccc;
+}
+
+.footer-copyright {
+  background-color: #1e2a3d; /* Dark blue color for the footer background */
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9em;
+}
+
+.footer-copyright p {
+  margin: 0;
+  color: #cccccc;
+}
+
+.footer-copyright a {
+  color: #0098ff; /* Light blue color for the link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-copyright a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  /* Hero Section */
+  /* .hero {
+    padding: 2px; 
+  } */
+  /* Slider image adjustments */
+  .slider-image {
+    height: 300px; /* Smaller height for mobile */
+    width: 60%;
+  }
+
+  .slider-img {
+    object-position: center; /* Center the image on mobile */
+  }
+  .slick-next:before{
+    display: none;
+  }
+  .slick-prev:before{
+    display: none;
+  }
+  
+}
+@media screen and (max-width: 1024px) {
+  .card-container div {
+    flex: 1 1 calc(50% - 20px); /* 2 cards per row */
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    flex-direction: column; /* Stack cards vertically */
+    bottom: 8500px;
+  }
+
+  .card-container div {
+    flex: 1 1 100%; /* Full width for each card */
+    max-width: 100%;
+    bottom: 6300px;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack content vertically */
+    text-align: center; /* Center-align text for smaller screens */
+    margin-top: 800px;
+  }
+
+  .text-container {
+    max-width: 100%; /* Full width for smaller screens */
+  }
+
+  .image-container {
+    max-width: 100%; /* Full width for smaller screens */
+  }
+
+  .text-container .heading {
+    font-size: 1.5rem; /* Smaller font size for headings */
+  }
+
+  .text-container .paragraph {
+    font-size: 0.95rem; /* Adjust text size for readability */
+  }
+
+  .image-container .guide-text {
+    font-size: 0.8rem; /* Slightly smaller text for guide */
+    padding: 8px 12px; /* Adjust padding */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .testimonial-section {
+    flex-direction: column; /* Stack content vertically */
+    text-align: center; /* Center-align text for smaller screens */
+    padding: 15px;
+  }
+
+  .testimonial-video {
+    flex: 1 1 100%; /* Full width for the video */
+    max-width: 100%;
+  }
+
+  .testimonial-content {
+    flex: 1 1 100%; /* Full width for the content */
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .testimonial-content h2 {
+    font-size: 1.5rem; /* Adjust heading size for smaller screens */
+  }
+
+  .testimonial-content p {
+    font-size: 0.95rem; /* Adjust paragraph size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .platforms-section {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .platform {
+    width: 96%; /* Make each card take full width on smaller screens */
+    padding: 5px;
+  }
+
+  .platform-logo {
+    max-width: 280px; /* Adjust logo size for smaller screens */
+  }
+
+  .platform-button {
+    font-size: 0.85rem;
+    padding: 8px 15px; /* Adjust button size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Stack the reviews vertically and make them full-width */
+  .user-reviews {
+    padding: 15px;
+    flex-direction: column;
+  }
+
+  .review {
+    width:95%; /* Make reviews take full width on mobile */
+    padding: 15px; /* Adjust padding */
+  }
+
+  .review-header {
+    flex-direction: column; /* Stack the name and date vertically */
+    align-items: flex-start;
+  }
+
+  .review-stars {
+    font-size: 1rem; /* Make stars smaller on mobile */
+  }
+
+  .review-text {
+    font-size: 0.85rem; /* Adjust text size for mobile */
+  }
+
+  .user-icon {
+    width: 40px; /* Reduce icon size on mobile */
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Further adjustments for smaller screens */
+  .review {
+    padding: 10px; /* Reduce padding further on very small screens */
+  }
+
+  .review-stars {
+    font-size: 0.9rem; /* Smaller star size */
+  }
+
+  .review-text {
+    font-size: 0.8rem; /* Smaller text size */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container1 {
+    flex-direction: column;
+    padding: 15px;
+    width: 90%;
+  }
+
+  .text-container {
+    flex: 1 1 100%; /* Take up full width */
+    padding: 15px;
+  }
+
+  .video-container {
+    flex: 1 1 100%;
+    margin-top: 20px;
+  }
+
+  .heading1 {
+    font-size: 1.6rem; /* Smaller heading on mobile */
+  }
+
+  .subtitle {
+    font-size: 1rem; /* Adjust subtitle font size */
+  }
+
+  .description {
+    font-size: 0.9rem; /* Adjust description font size */
+    text-align: center;
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading2 {
+    font-size: 1.6rem; /* Smaller heading on mobile */
+  }
+
+  .description {
+    font-size: 0.9rem; /* Adjust description font size */
+    text-align: left;
+  }
+
+  .tabs {
+    flex-direction: column;
+    gap: 10px;
+    align-items: left;
+  }
+
+  .tab-button {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+
+  .tab-content {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .tab-image img {
+    max-width: 90%;
+  }
+
+  .tab-text {
+    font-size: 0.9rem;
+    max-width: 100%;
+  }
+
+  .more-info-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .departments {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .department-card {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .modern-equipment h3 {
+    font-size: 1.3rem;
+    text-align: left; /* Align h3 to the left */
+    margin-left: -120px; /* Optional: Add some space from the left */
+  }
+
+  .divider{
+    margin-left: -120px;
+  }
+
+  .modern-equipment p {
+    font-size: 0.9rem;
+    padding: 0 20px;
+    text-align: left; /* Align p to the left */
+    margin-left: -140px; /* Optional: Add some space from the left */
+  }
+
+  .all-departments-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    text-align: left;
+    margin-left: -120px;
+  }
+}
+
+/* Mobile view (below 480px) */
+@media screen and (max-width: 480px) {
+
+  /* Main heading */
+  .video-testimonials h2 {
+    font-size: 1.5rem;
+    text-align: center; /* Center align the heading */
+    margin-bottom: 15px;
+  }
+
+  /* Paragraph text */
+  .video-testimonials p {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+
+  /* Slider and video cards */
+  .video-card {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0; /* Space between cards */
+    position: relative;
+    background-color: #f0f0f0; /* Optional: Light background for cards */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+
+  /* Thumbnail styling */
+  .thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0; /* Rounded corners on top */
+  }
+
+  /* Video duration and play icon */
+  .duration, .play-icon {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 1rem;
+  }
+
+  /* Play icon centered on card */
+  .play-icon {
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .page-button {
+    background: none;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    margin: 0 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+
+  .page-button.active {
+    background-color: #00458f;
+    color: white;
+  }
+
+  .page-button:hover {
+    background-color: #f2f2f2;
+  }
+
+  /* Modal styling */
+  .modal-content {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    position: relative;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  video {
+    width: 100%;
+    border-radius: 8px;
+  }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .fixed-price-package {
+    min-height: 800px; /* Adjust for smaller devices */
+  }
+  .fixed-price-package .content {
+    flex-direction: column; /* Stack sections vertically */
+    gap: 15px;
+  }
+
+  .text-section,
+  .working-hours,
+  .fees-insurance {
+    flex: 1 1 100%; /* Make each section full width */
+  }
+
+  .text-section h2,
+  .working-hours h3,
+  .fees-insurance h3 {
+    font-size: 1.5rem;
+  }
+
+  .info-button {
+    width: 100%; /* Full-width button on smaller screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center;
+    height: 600px;
+    margin-top: -136px;
+    clip-path: polygon(0 0, 0 0, 50% 20%, 100% 0, 100% 0, 100% 100%, 0 100%);
+
+  }
+  .hospital-logo{
+    margin-top: 60px;
+    margin-left: -70px;
+  }
+  .contact-section,
+  .social-media-section {
+    text-align: center;
+  }
+  .contact-section p{
+    margin-left: 10px;
+  }
+  .contact-item img{
+    margin-left: 70px;
+  }
+  .contact-item a{
+    margin-left: -5px;
+  }
+  .social-media-section{
+    margin-left: -240px;
+  }
+}
