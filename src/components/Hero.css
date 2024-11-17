@@ -665,7 +665,7 @@ h2 {
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 400px; /* Adjust height as needed */
+  height: 400px; 
   clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
 
 }
@@ -676,7 +676,7 @@ h2 {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 40px; /* The "cut" section */
+  height: 40px; 
   /* background-color: #1a3c5d;  */
 }
 
@@ -772,8 +772,8 @@ h2 {
 .footer-container {
   display: flex;
   background-color: #2e3b59;
-  padding: 30px 60px; /* Adjust padding to control height */
-  margin-top: -76px; /* Use negative margin to lift it higher */
+  padding: 30px 60px; 
+  margin-top: -76px;
   color: #ffffff;  
   font-family: Arial, sans-serif;
   clip-path: polygon(0 0, 0 0, 50% 17%, 100% 0, 100% 0, 100% 100%, 0 100%);
@@ -918,12 +918,12 @@ h2 {
   } */
   /* Slider image adjustments */
   .slider-image {
-    height: 300px; /* Smaller height for mobile */
+    height: 300px; 
     width: 60%;
   }
 
   .slider-img {
-    object-position: center; /* Center the image on mobile */
+    object-position: center; 
   }
   .slick-next:before{
     display: none;
@@ -935,19 +935,19 @@ h2 {
 }
 @media screen and (max-width: 1024px) {
   .card-container div {
-    flex: 1 1 calc(50% - 20px); /* 2 cards per row */
+    flex: 1 1 calc(50% - 20px); 
     max-width: calc(50% - 20px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .card-container {
-    flex-direction: column; /* Stack cards vertically */
+    flex-direction: column; 
     bottom: 8500px;
   }
 
   .card-container div {
-    flex: 1 1 100%; /* Full width for each card */
+    flex: 1 1 100%; 
     max-width: 100%;
     bottom: 6300px;
 
@@ -956,35 +956,35 @@ h2 {
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column; /* Stack content vertically */
-    text-align: center; /* Center-align text for smaller screens */
+    text-align: center; 
     margin-top: 800px;
   }
 
   .text-container {
-    max-width: 100%; /* Full width for smaller screens */
+    max-width: 100%;
   }
 
   .image-container {
-    max-width: 100%; /* Full width for smaller screens */
+    max-width: 100%; 
   }
 
   .text-container .heading {
-    font-size: 1.5rem; /* Smaller font size for headings */
+    font-size: 1.5rem; 
   }
 
   .text-container .paragraph {
-    font-size: 0.95rem; /* Adjust text size for readability */
+    font-size: 0.95rem; 
   }
 
   .image-container .guide-text {
-    font-size: 0.8rem; /* Slightly smaller text for guide */
-    padding: 8px 12px; /* Adjust padding */
+    font-size: 0.8rem; 
+    padding: 8px 12px; 
   }
 }
 
 @media screen and (max-width: 768px) {
   .testimonial-section {
-    flex-direction: column; /* Stack content vertically */
+    flex-direction: column; 
     text-align: center; /* Center-align text for smaller screens */
     padding: 15px;
   }
@@ -995,17 +995,17 @@ h2 {
   }
 
   .testimonial-content {
-    flex: 1 1 100%; /* Full width for the content */
+    flex: 1 1 100%; 
     max-width: 100%;
     padding: 0;
   }
 
   .testimonial-content h2 {
-    font-size: 1.5rem; /* Adjust heading size for smaller screens */
+    font-size: 1.5rem; 
   }
 
   .testimonial-content p {
-    font-size: 0.95rem; /* Adjust paragraph size for smaller screens */
+    font-size: 0.95rem; 
   }
 }
 
@@ -1017,17 +1017,17 @@ h2 {
   }
 
   .platform {
-    width: 96%; /* Make each card take full width on smaller screens */
+    width: 96%; 
     padding: 5px;
   }
 
   .platform-logo {
-    max-width: 280px; /* Adjust logo size for smaller screens */
+    max-width: 280px; 
   }
 
   .platform-button {
     font-size: 0.85rem;
-    padding: 8px 15px; /* Adjust button size for smaller screens */
+    padding: 8px 15px; 
   }
 }
 
@@ -1039,12 +1039,12 @@ h2 {
   }
 
   .review {
-    width:95%; /* Make reviews take full width on mobile */
-    padding: 15px; /* Adjust padding */
+    width:95%; 
+    padding: 15px;
   }
 
   .review-header {
-    flex-direction: column; /* Stack the name and date vertically */
+    flex-direction: column; 
     align-items: flex-start;
   }
 
@@ -1065,15 +1065,15 @@ h2 {
 @media screen and (max-width: 480px) {
   /* Further adjustments for smaller screens */
   .review {
-    padding: 10px; /* Reduce padding further on very small screens */
+    padding: 10px;
   }
 
   .review-stars {
-    font-size: 0.9rem; /* Smaller star size */
+    font-size: 0.9rem; 
   }
 
   .review-text {
-    font-size: 0.8rem; /* Smaller text size */
+    font-size: 0.8rem; 
   }
 }
 
@@ -1085,7 +1085,7 @@ h2 {
   }
 
   .text-container {
-    flex: 1 1 100%; /* Take up full width */
+    flex: 1 1 100%; 
     padding: 15px;
   }
 
@@ -1095,15 +1095,15 @@ h2 {
   }
 
   .heading1 {
-    font-size: 1.6rem; /* Smaller heading on mobile */
+    font-size: 1.6rem; 
   }
 
   .subtitle {
-    font-size: 1rem; /* Adjust subtitle font size */
+    font-size: 1rem; 
   }
 
   .description {
-    font-size: 0.9rem; /* Adjust description font size */
+    font-size: 0.9rem; 
     text-align: center;
   }
 
@@ -1115,11 +1115,11 @@ h2 {
 
 @media screen and (max-width: 768px) {
   .heading2 {
-    font-size: 1.6rem; /* Smaller heading on mobile */
+    font-size: 1.6rem; 
   }
 
   .description {
-    font-size: 0.9rem; /* Adjust description font size */
+    font-size: 0.9rem; 
     text-align: left;
   }
 
@@ -1177,7 +1177,7 @@ h2 {
   .modern-equipment h3 {
     font-size: 1.3rem;
     text-align: left; /* Align h3 to the left */
-    margin-left: -120px; /* Optional: Add some space from the left */
+    margin-left: -120px; 
   }
 
   .divider{
@@ -1188,7 +1188,7 @@ h2 {
     font-size: 0.9rem;
     padding: 0 20px;
     text-align: left; /* Align p to the left */
-    margin-left: -140px; /* Optional: Add some space from the left */
+    margin-left: -140px; 
   }
 
   .all-departments-button {
@@ -1205,7 +1205,7 @@ h2 {
   /* Main heading */
   .video-testimonials h2 {
     font-size: 1.5rem;
-    text-align: center; /* Center align the heading */
+    text-align: center;
     margin-bottom: 15px;
   }
 
@@ -1229,14 +1229,14 @@ h2 {
     cursor: pointer;
   }
 
-  /* Thumbnail styling */
+  
   .thumbnail {
     width: 100%;
     height: auto;
-    border-radius: 8px 8px 0 0; /* Rounded corners on top */
+    border-radius: 8px 8px 0 0; 
   }
 
-  /* Video duration and play icon */
+  
   .duration, .play-icon {
     position: absolute;
     bottom: 10px;
@@ -1245,7 +1245,7 @@ h2 {
     font-size: 1rem;
   }
 
-  /* Play icon centered on card */
+  
   .play-icon {
     font-size: 2rem;
     top: 50%;
